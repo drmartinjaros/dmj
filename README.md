@@ -97,7 +97,7 @@ Contact me
 
  **†** GUI objects.
 
-Dr. Martin Jaroszewicz
+Martin Jaroszewicz, PhD
 
 
 
