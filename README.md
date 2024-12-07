@@ -1,5 +1,5 @@
-dmj is a library by Martin Jaroszewicz with five sections: control, experimental,
-filters, gui, and signal.
+dmj is a library for Pure Data running in a Windows 64-bit machine, by Martin Jaroszewicz with five sections: control, experimental,
+filters, gui, and signal. 
 
  - data objects: atan2 banger elliptic euclid gamepad martbox midicc ritmo unique wintablet
  
@@ -9,8 +9,41 @@ filters, gui, and signal.
 
  - signal objects: binaural~ compressor~ convolution~ fmsynth~ granular~ pwm~ waves~ waveshaper~
 
-List of dmj Pure Data Externals
--------------------------------
+## Overview
+DMJ is a Pure Data (Pd) library designed specifically for Windows 64-bit systems.
+
+## Requirements
+- Pure Data (Pd)
+- Windows 64-bit operating system
+
+## Installation
+
+1. Download and run the installer from the repository.
+
+2. The library will typically install in the standard Pure Data externals folder:
+   - Path: `C:\Users\%USERNAME%\Documents\Pd\externals`
+
+3. Installation Location
+   - If you choose a different installation directory, manually add the library path in Pure Data preferences:
+     * Open Pure Data
+     * Go to `Preferences` > `Path`
+     * Click `Add` and select the folder containing the DMJ library
+
+4. Verification
+   - Restart Pure Data after installation
+   - Check that the library objects are available in your patches
+
+## Troubleshooting
+- Ensure you have the correct Pure Data version
+- Verify Windows 64-bit compatibility
+- Restart Pure Data if objects are not immediately recognized
+
+
+## Contributing
+Contact me
+
+
+## Description of dmj Pure Data Externals
 
 **[atan2]** The atan2() function returns the angle theta in radians from the conversion of rectangular coordinates (x, y) to polar coordinates (r, theta).
 
