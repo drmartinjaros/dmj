@@ -1,4 +1,4 @@
-![dmj guis](guis2.png)
+![dmj guis](guis.png)
 
 dmj is a library of Pure Data externals.
 
