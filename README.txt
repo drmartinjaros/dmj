@@ -9,11 +9,5 @@ filters, gui, and signal.
 
  * signal objects: binaural~ compressor~ convolution~ fmsynth~ granular~ pwm~ waves~ waveshaper~
 
-Martin Jaroszewicz Ph.D
-
-Contact:
-https://mastodon.social/@wandersound
-https://martinjaros.netlify.app/
-email: drmartinjaros@gmail.com
 
 
