@@ -1,3 +1,5 @@
+![dmj guis](images/guis.png)
+
 dmj is a library for Pure Data running in a Windows 64-bit machine, by Martin Jaroszewicz with five sections: control, experimental,
 filters, gui, and signal. 
 
