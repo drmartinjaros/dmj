@@ -1,0 +1,18 @@
+#N canvas 678 298 462 312 12;
+#X obj 46 132 wintablet;
+#X floatatom 46 186 5 0 0 0 - - - 0;
+#X floatatom 92 186 5 0 0 0 - - - 0;
+#X floatatom 138 186 5 0 0 0 - - - 0;
+#X floatatom 183 186 5 0 0 0 - - - 0;
+#X floatatom 228 186 5 0 0 0 - - - 0;
+#X obj 46 106 bng 15 250 50 0 empty empty empty 0 -6 0 8 #fcfcfc #000000 #000000;
+#X text 68 105 <- open tablet window;
+#X text 10 7 wintable - Reads data from a Wacom tablet;
+#X text 13 26 It needs the accompanying WinTabletApp \; in the same directory where \; the wintablet extern is.;
+#X text 14 248 dmj © 2024;
+#X connect 0 0 1 0;
+#X connect 0 1 2 0;
+#X connect 0 2 3 0;
+#X connect 0 3 4 0;
+#X connect 0 4 5 0;
+#X connect 6 0 0 0;

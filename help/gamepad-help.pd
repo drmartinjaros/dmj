@@ -1,0 +1,16 @@
+#N canvas 743 122 439 299 12;
+#X obj 55 108 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X msg 84 107 poll 10;
+#X obj 55 135 gamepad;
+#X floatatom 78 192 5 0 0 0 - - - 0;
+#X obj 78 164 unpack;
+#X obj 137 160 select 1;
+#X obj 137 184 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X text 20 20 gamepad - Polls data from a bluetooth connected gamepad;
+#X text 19 44 This is an experimental object and work in progress \; to get data from an ESP32 \;;
+#X connect 0 0 2 0;
+#X connect 1 0 2 0;
+#X connect 2 1 4 0;
+#X connect 2 2 5 0;
+#X connect 4 0 3 0;
+#X connect 5 0 6 0;
