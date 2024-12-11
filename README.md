@@ -46,7 +46,7 @@ Contact me
 
 ## Description of dmj Pure Data Externals
 
-**[atan2]** The atan2() function returns the angle theta in radians from the conversion of rectangular coordinates (x, y) to polar coordinates (r, theta).
+**[atan2~]** The atan2() function returns the angle theta in radians from the conversion of rectangular coordinates (x, y) to polar coordinates (r, theta).
 
 **[banger]** Limited bangs at a rate.
 
@@ -98,7 +98,5 @@ Contact me
 
  **†** GUI objects.
 
-Martin Jaroszewicz, PhD
-
-
+Martin Jaroszewicz, MFA, PhD
 
